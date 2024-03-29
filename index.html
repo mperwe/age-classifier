@@ -9,9 +9,20 @@
 <body>
     <div class="container">
         <h2>Age Classifier</h2>
-        <input type="number" id="yearOfBirth" placeholder="Enter your year of birth">
-        <button onclick="classifyAge()">Classify</button>
-        <p id="ageClassification"></p>
+        <table>
+            <tr>
+                <th>Your Year of Birth</th>
+                <td><input type="number" id="yearOfBirth" placeholder="Enter your year of birth"></td>
+            
+            <tr>
+                <th></th>
+                <td><button onclick="classifyAge()">Classify</button>
+            
+            <tr>
+                <th>Classification</th>
+                <td id="ageClassification"></td>
+            </tr>
+        </table>
     </div>
     <script src="script.js"></script>
 </body>
